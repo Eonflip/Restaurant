@@ -1,0 +1,80 @@
+body {
+    background-image: url('../assets/background-sea.png');
+}
+
+button {
+    margin: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background: rgb(254, 152, 115);
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url('../assets/wooden-crate.png');
+    color: white;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-icon {
+    margin: 10px;
+    transform: rotate(-75deg);
+    width: 70px;
+    height: auto;
+}
+
+.right-icon {
+    margin: 10px;
+    width: 70px;
+    height: auto;
+}
+
+.about-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url('../assets/wooden-crate.png');
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.hours-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url('../assets/wooden-crate.png');
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.location-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-image: url('../assets/wooden-crate.png');
+    color: white;
+    text-align: center;
+    background-size: cover;
+}

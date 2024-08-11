@@ -1,0 +1,30 @@
+.breakfast-container {
+    text-align: center;
+    background-image: url('../assets/wooden-crate.png');
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.breakfast-heading {
+    font-weight: bold;
+    color: orangered;
+}
+
+
+.lunch-container {
+    text-align: center;
+    background-image: url('../assets/wooden-crate.png');
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.lunch-heading {
+    font-weight: bold;
+    color: orangered;
+}
