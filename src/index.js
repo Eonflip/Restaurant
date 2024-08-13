@@ -1,7 +1,9 @@
 import createHome from './pages/home';
 import createMenu from './pages/menu';
+import createAbout from './pages/about';
 import './styles/home.css';
 import './styles/menu.css';
+import './styles/about.css';
 
 createNav();
 
@@ -28,6 +30,13 @@ function createNav() {
         main.innerHTML = '';
         createNav();
         createMenu();
+    })
+
+    aboutButton.addEventListener('click', () => {
+        nav.innerHTML = '';
+        main.innerHTML = '';
+        createNav();
+        createAbout();
     })
 }
 
