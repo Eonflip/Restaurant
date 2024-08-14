@@ -11,6 +11,14 @@ button {
     font-weight: bold;
 }
 
+button:focus {
+    background: rgb(227, 116, 76);
+}
+
+button.selected {
+    background: rgb(227, 116, 76);
+}
+
 .button-container {
     display: flex;
     align-items: center;
@@ -24,57 +32,61 @@ button {
 }
 
 .title-container {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
-    background-image: url('../assets/wooden-crate.png');
-    color: white;
-    text-align: center;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    background-image: url('../assets/wooden-crate.png');
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px auto;
+    max-width: 600px;
 }
 
 .left-icon {
-    margin: 10px;
+    margin: 2px;
     transform: rotate(-75deg);
     width: 70px;
     height: auto;
 }
 
 .right-icon {
-    margin: 10px;
+    margin: 2px;
     width: 70px;
     height: auto;
 }
 
 .about-container {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
-    background-image: url('../assets/wooden-crate.png');
-    color: white;
     text-align: center;
+    background-image: url('../assets/wooden-crate.png');
     background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px auto;
+    max-width: 600px;
 }
 
 .hours-container {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
-    background-image: url('../assets/wooden-crate.png');
-    color: white;
     text-align: center;
+    background-image: url('../assets/wooden-crate.png');
     background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px auto;
+    max-width: 600px;
 }
 
 .location-container {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px;
-    background-image: url('../assets/wooden-crate.png');
-    color: white;
     text-align: center;
+    background-image: url('../assets/wooden-crate.png');
     background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px auto;
+    max-width: 600px;
 }

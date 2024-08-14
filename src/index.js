@@ -19,25 +19,28 @@ function createNav() {
     const aboutButton = createButton('About', buttonContainer);
 
     homeButton.addEventListener('click', () => {
-        nav.innerHTML = '';
+        setSelectedButton(homeButton);
         main.innerHTML = '';
-        createNav();
         createHome();
-    })
+    });
 
     menuButton.addEventListener('click', () => {
-        nav.innerHTML = '';
+        setSelectedButton(menuButton);
         main.innerHTML = '';
-        createNav();
         createMenu();
-    })
+    });
 
     aboutButton.addEventListener('click', () => {
-        nav.innerHTML = '';
+        setSelectedButton(aboutButton);
         main.innerHTML = '';
-        createNav();
         createAbout();
-    })
+    });
+}
+
+function setSelectedButton(selectedButton) {
+    const buttons = document.querySelectorAll('.button-container button');
+    buttons.forEach(button => button.classList.remove('selected'));
+    selectedButton.classList.add('selected');
 }
 
 

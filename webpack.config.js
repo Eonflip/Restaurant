@@ -25,6 +25,7 @@ module.exports = {
         title: "Cleo's Crab Shack",
         template: './src/index.html',
         filename: 'index.html',
+        favicon: './src/assets/favicon_io/favicon-32x32.png'
     }),
   ],
   mode: 'development',
